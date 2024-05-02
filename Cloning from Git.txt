@@ -1,0 +1,59 @@
+git init --to make working directory (git repository)
+ 
+
+select the folder
+1.git clone link from git hub
+and it appear in vs code
+ now to make changes 
+2.cd  file name
+3.git status
+4.git add .
+5.git commit -m "some message with ucid"
+6.git push origin <<<< which branch name(main)>>>>
+
+
+
+creating branch
+
+1.git branch
+2.git checkout -b <<name of branch>>
+3.git branch
+4.git status
+5.git add .
+6.git commit -m "changes name"
+7.git push origin(online /remote ie in gits) <<branch name>>
+
+to change branches 
+git branch
+git checkout branch name
+
+
+
+git add origin "link"
+git pull origin main/master
+
+
+md file-markdown 
+
+creating SSH- This will allow us to take local to git hub
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+git commit -am ""--already file should be there which is modified then adding & commiting(saving) done at same time
+
+
+merging
+
+
+git checkout to which branch we are merging
+git merge changed branch
+git push origin to original
+
+git checkout main
+git merge changes
+git push origin main
+
+git stash
+git ammed
+git rebase
+
+
